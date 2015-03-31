@@ -1,4 +1,4 @@
-# lcov-sourcemap
+# [lcov](http://ltp.sourceforge.net/coverage/lcov/geninfo.1.php)-[sourcemap](https://github.com/mozilla/source-map/)
 
 > Transform an LCOV file using sourcemaps.
 
