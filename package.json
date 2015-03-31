@@ -1,0 +1,27 @@
+{
+	"name": "lcov-sourcemap",
+	"version": "0.0.0-beta",
+	"description": "Transform an LCOV file using sourcemaps.",
+	"main": "./lib/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Tapad/lcov-sourcemap"
+	},
+	"keywords": [
+		"lcov",
+		"sourcemap",
+		"transform"
+	],
+	"author": "Jesse Zhang",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Tapad/lcov-sourcemap/issues"
+	},
+	"homepage": "https://github.com/Tapad/lcov-sourcemap",
+	"dependencies": {
+		"bluebird": "^2.9.21",
+		"lcov-parse": "0.0.9",
+		"lodash-node": "^3.6.0",
+		"source-map": "^0.4.2"
+	}
+}
