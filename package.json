@@ -22,6 +22,7 @@
 		"bluebird": "^2.9.21",
 		"lcov-parse": "0.0.9",
 		"lodash-node": "^3.6.0",
-		"source-map": "^0.4.2"
+		"source-map": "^0.4.2",
+        "convert-source-map": "^1.2.0"
 	}
 }
