@@ -1,6 +1,6 @@
 {
   "name": "lcov-autosourcemap",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Transform an LCOV file using sourcemaps. From https://github.com/Tapad/lcov-sourcemap",
   "main": "./lib/index.js",
   "repository": {
