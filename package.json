@@ -1,28 +1,28 @@
 {
-	"name": "lcov-autosourcemap",
-	"version": "0.3.1",
-	"description": "Transform an LCOV file using sourcemaps. From https://github.com/Tapad/lcov-sourcemap",
-	"main": "./lib/index.js",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/mjstevens777/lcov-autosourcemap"
-	},
-	"keywords": [
-		"lcov",
-		"sourcemap",
-		"transform"
-	],
-	"author": "Matt Stevens",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/mjstevens777/lcov-autosourcemap/issues"
-	},
-	"homepage": "https://github.com/mjstevens777/lcov-autosourcemap",
-	"dependencies": {
-		"bluebird": "^2.9.21",
-		"lcov-parse": "0.0.9",
-		"lodash": "^3.6.0",
-		"source-map": "^0.4.2",
-		"convert-source-map": "^1.2.0"
-	}
+  "name": "lcov-autosourcemap",
+  "version": "0.3.2",
+  "description": "Transform an LCOV file using sourcemaps. From https://github.com/Tapad/lcov-sourcemap",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mjstevens777/lcov-autosourcemap"
+  },
+  "keywords": [
+    "lcov",
+    "sourcemap",
+    "transform"
+  ],
+  "author": "Matt Stevens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjstevens777/lcov-autosourcemap/issues"
+  },
+  "homepage": "https://github.com/mjstevens777/lcov-autosourcemap",
+  "dependencies": {
+    "bluebird": "^2.9.21",
+    "lcov-parse": "0.0.9",
+    "lodash": "^3.6.0",
+    "source-map": "^0.4.2",
+    "convert-source-map": "^1.2.0"
+  }
 }
