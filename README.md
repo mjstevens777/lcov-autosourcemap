@@ -3,7 +3,8 @@
 > Transform an LCOV file using sourcemaps.
 
 This package will look for sourcemap files under the given source directory.
-The lcov file lists files
+The lcov file lists files that are covered. This package will look for
+sourcemaps with the name `<file>.map`.
 
 ---
 ## Wat?
