@@ -2,6 +2,9 @@
 
 > Transform an LCOV file using sourcemaps.
 
+This package will look for sourcemap files under the given source directory.
+The lcov file lists files
+
 ---
 ## Wat?
 * Run tests against transformed, concat'ed, etc. dist file
