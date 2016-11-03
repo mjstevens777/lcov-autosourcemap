@@ -12,30 +12,23 @@
 Install with [npm](https://github.com/Tapad/lcov-sourcemap)
 
 ```
-npm install --save-dev lcov-sourcemap
+npm install --save-dev lcov-autosourcemap
 ```
 
 ---
 ## Usage
 ```
 var lcovSourcemap = require("lcov-sourcemap");
-lcovSourcemap("./coverage/lcov-raw.info", {
-	app: "./dist/js/app.js.map",
-	others: "./dist/js/others.js.map"
-}, "./src").then(function (lcov) {
+lcovSourcemap("./coverage/lcov-raw.info", "./src").then(function (lcov) {
     // lcov string
 });
 
-lcovSourcemap.writeLcov("./coverage/lcov-raw.info", {
-	app: "./dist/js/app.js.map",
-	others: "./dist/js/others.js.map"
-}, "./src", "./coverage/lcov.info").then(function () {
+lcovSourcemap.writeLcov("./coverage/lcov-raw.info", "./src", "./coverage/lcov.info").then(function () {
     // Done!
 });
 ```
-### lcovSourcemap(lcovFilePath, sourcemaps, sourceDir)
+### lcovSourcemap(lcovFilePath, sourceDir)
 * **lcovFilePath** (String): Lcov file.
-* **sourcemaps** (Object | Array | String): Array or map of source map files or a string of one source map file.
 * **sourceDir** (String): Source directory to look for files (checks for existence).
 * _return_ (Promise): Promise containing Lcov string
 
